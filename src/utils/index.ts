@@ -1,2 +1,3 @@
 import stopPropagation from './stopPropagation';
-export { stopPropagation };
+
+export default { stopPropagation };
