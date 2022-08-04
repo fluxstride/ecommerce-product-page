@@ -1,0 +1,34 @@
+.nav_menu_container {
+  .nav_menu_button {
+    margin-right: 0.8rem;
+  }
+
+  .nav_menu {
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 300ms ease-in-out;
+    z-index: 5;
+
+    .inner {
+      height: 100vh;
+      width: 70%;
+      height: 100%;
+      background: #fff;
+      z-index: 2;
+    }
+
+    ul {
+      margin-top: 1.6rem;
+
+      li {
+        margin-bottom: 0.8rem;
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+  }
+}

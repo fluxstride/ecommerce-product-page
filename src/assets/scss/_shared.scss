@@ -1,0 +1,23 @@
+// uniform padding for various sections
+.sec_pad {
+  padding: 1rem;
+}
+
+.sec_pad_x {
+  padding: 0rem 1.5rem;
+}
+
+.sec_pad_y {
+  padding: 1.5rem 0rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex_y {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
