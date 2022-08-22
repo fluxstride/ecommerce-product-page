@@ -9,6 +9,7 @@
     position: relative;
 
     .carousel_nav {
+      @include flex_between;
       position: absolute;
       width: 95%;
       top: 50%;
@@ -42,6 +43,28 @@
       color: $dark_grayish_blue;
       margin-top: 0.8rem;
       line-height: 1.5rem;
+    }
+
+    .price {
+      @include flex_between;
+      padding: 0;
+      margin-top: 0.8rem;
+
+      .discount {
+        @include flex_between;
+
+        h2 {
+          margin-right: 0.4rem;
+        }
+      }
+
+      .main {
+        color: $grayish_blue;
+      }
+
+      h2 {
+        margin: 0;
+      }
     }
   }
 }

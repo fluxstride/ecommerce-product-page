@@ -11,9 +11,14 @@
   padding: 1.5rem 0rem;
 }
 
-.flex {
+@mixin flex {
   display: flex;
   align-items: center;
+}
+@mixin flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flex_y {

@@ -19,7 +19,7 @@ const Product = () => {
           src={productImages[carouselIndex]}
           alt=''
         />
-        <div className='flex carousel_nav'>
+        <div className='carousel_nav'>
           <button
             type='button'
             tabIndex={0}
@@ -52,8 +52,14 @@ const Product = () => {
           Featuring a durable rubber outer sole, they&#39;ll withstand
           everything the weather can offer.
         </p>
+        <section className='price'>
+          <span className='discount'>
+            <h2 className='price'>$125.00</h2>
+            <span className='percentage'>50%</span>
+          </span>
+          <span className='main'>$250.00</span>
+        </section>
       </section>
-      <section className='price'>$125.00</section>
     </div>
   );
 };
