@@ -21,8 +21,16 @@
   justify-content: space-between;
 }
 
+@mixin border_radius {
+  border-radius: 0.5rem;
+}
+
 .flex_y {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.dim {
+  opacity: 0.5;
 }

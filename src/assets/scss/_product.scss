@@ -17,7 +17,7 @@
       transform: translate(-50%, -50%);
 
       button {
-        background: #fff;
+        background: $white;
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -56,14 +56,55 @@
         h2 {
           margin-right: 0.4rem;
         }
+
+        .percentage {
+          background: $pale_orange;
+          padding: 0.1rem 0.5rem;
+          color: $orange;
+          font-weight: 700;
+          font-size: 0.8rem;
+          border-radius: 0.2rem;
+        }
       }
 
       .main {
         color: $grayish_blue;
+        text-decoration: line-through;
       }
 
       h2 {
         margin: 0;
+      }
+    }
+    .product_count {
+      @include flex_between;
+      @include border-radius;
+      background-color: $light_grayish_blue;
+      margin-top: 1rem;
+
+      span {
+        font-weight: 700;
+      }
+    }
+    .add_to_cart {
+      @include flex;
+      @include border-radius;
+      @include section_pad;
+      background: $orange;
+      margin-top: 0.4rem;
+      justify-content: center;
+      width: 100%;
+
+      .cart {
+        path {
+          fill: #fff;
+        }
+        margin-right: 0.8rem;
+      }
+
+      span {
+        color: $white;
+        font-weight: 700;
       }
     }
   }
