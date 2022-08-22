@@ -1,9 +1,10 @@
 // partials
-@use './nav';
-@use './header';
-@use './product';
-@use './components';
-@use './shared';
+@import './variables';
+@import './shared';
+@import './nav';
+@import './header';
+@import './product';
+@import './components';
 
 *,
 *::before,
@@ -30,4 +31,8 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+p {
+  font-size: 16px;
 }

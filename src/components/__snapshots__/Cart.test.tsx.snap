@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cart/> expect the Cart component to match the given snapshot 1`] = `
+<div
+  className="cart_container"
+>
+  <button
+    className="cart_button"
+    onClick={[Function]}
+    type="button"
+  >
+    <img
+      alt="cart"
+      src="icon-cart.svg"
+    />
+  </button>
+</div>
+`;

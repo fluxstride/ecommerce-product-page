@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar/> expect the component to match the snapshot 1`] = `
+<button
+  className="avatar"
+  data-cy="avatar_button"
+  type="button"
+>
+  <img
+    alt="cart"
+    src="image-avatar.png"
+  />
+  <p>
+    tests
+  </p>
+</button>
+`;

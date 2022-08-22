@@ -8,7 +8,7 @@ import menuIcon from '../assets/images/icon-menu.svg';
 const links = ['Collections', 'Men', 'Women', 'About', 'Contact'];
 
 const NavMenu = () => {
-  const { show: menuVisible, toggleShow: toggleMenuShow } = useShow();
+  const { shouldShow: menuVisible, toggleShow: toggleMenuShow } = useShow();
 
   return (
     <div className='nav_menu_container'>

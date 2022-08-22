@@ -1,6 +1,6 @@
 // uniform padding for various sections
-.sec_pad {
-  padding: 1rem;
+@mixin section_pad {
+  padding: 1rem 1.5rem;
 }
 
 .sec_pad_x {

@@ -1,11 +1,11 @@
 import { memo, MutableRefObject, useRef } from 'react';
-import cartIcon from '../assets/images/icon-cart.svg';
-import useOnClickOutside from '../hooks/useOnClickOutside';
-import useShow from '../hooks/useShow';
+import useOnClickOutside from 'hooks/useOnClickOutside';
+import useShow from 'hooks/useShow';
+import cartIcon from 'assets/images/icon-cart.svg';
 
 const Cart = () => {
   const {
-    show: cartVisible,
+    shouldShow: cartVisible,
     hideElement: hideCart,
     toggleShow: toggleCartShow,
   } = useShow();

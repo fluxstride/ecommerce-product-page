@@ -2,3 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 yarn lint
+yarn test:nowatch
+yarn cypress:run
+yarn cypress:run --component

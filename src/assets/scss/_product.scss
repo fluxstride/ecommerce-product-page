@@ -1,4 +1,49 @@
 .product {
-  display: block;
   width: 100%;
+
+  &_image {
+    width: 100%;
+  }
+
+  .carousel {
+    position: relative;
+
+    .carousel_nav {
+      position: absolute;
+      width: 95%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      button {
+        background: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+        img {
+          width: 0.7rem;
+        }
+      }
+    }
+  }
+
+  .product_info {
+    @include section_pad;
+
+    h5 {
+      color: $orange;
+    }
+
+    h2 {
+      color: $very_vark_blue;
+      margin-top: 0.8rem;
+    }
+
+    p {
+      color: $dark_grayish_blue;
+      margin-top: 0.8rem;
+      line-height: 1.5rem;
+    }
+  }
 }

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": ["es5", "es2015", "es2016", "dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -17,5 +18,14 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
-  "typeRoots": ["../node_modules/@types", "../@types"]
+  "exclude": ["./cypress"],
+  "typeRoots": ["../node_modules/@types", "../@types"],
+  "path": {
+    "components": ["components/*"],
+    "pages": ["pages/*"],
+    "contexts": ["contexts/*"],
+    "hooks": ["hooks/*"],
+    "utils": ["utils/*"],
+    "assets": ["assets/*"]
+  }
 }
