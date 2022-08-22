@@ -6,14 +6,14 @@ import UserMenu from './UserMenu';
 const Nav = () => {
   return (
     <div className='nav'>
-      <section className='left'>
+      <div className='left'>
         <NavMenu />
         <Logo />
-      </section>
-      <section className='right'>
+      </div>
+      <div className='right'>
         <Cart />
         <UserMenu />
-      </section>
+      </div>
     </div>
   );
 };

@@ -29,8 +29,6 @@
   }
 
   .product_info {
-    @include section_pad;
-
     h5 {
       color: $orange;
     }

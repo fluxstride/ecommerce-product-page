@@ -53,6 +53,7 @@ const Product = () => {
           everything the weather can offer.
         </p>
       </section>
+      <section className='price'>$125.00</section>
     </div>
   );
 };
